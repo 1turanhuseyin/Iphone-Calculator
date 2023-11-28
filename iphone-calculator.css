@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c9ecff;
+    margin: 42px;
+}
+
+.container {
+    height: 500px;
+    width: 270px;
+    border-radius: 7px;
+    background-color: #1c1c1c;
+    box-shadow: 10px 10px 10px rgba(43, 179, 252, 0.5);
+    padding-top: 16px;
+}
+
+.user-input {
+    min-height: 60px;
+}
+
+.js-calculation{
+    overflow-wrap: break-word;
+    text-align: right;
+    color: white;
+    border: none;
+    font-size: 32px;
+    font-family: Helvetica;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.calculation-buttons {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 360px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.clear {
+    height: 80px;
+    width: 250px;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.gray-button,
+.yellow-button {
+    color: white;
+    background-color: #505050;
+    font-family: Helvetica;
+    text-align: center;
+    font-weight:500;
+    font-size: 25px;
+    border: none;
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.equal-button {
+    width: 116px;
+    font-size: 30px;
+}
+
+.yellow-button {
+    background-color: #dda10f;
+    font-size: 30px;
+
+}
+
+.buttons-row {
+    margin: 0;
+}
+
+.buttons-row-bottom {
+    margin-top: 8px;
+    margin-left: 2px;
+}
+
+.profile {
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+    margin-left: 8px;
+}
+
+.my-place {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    justify-items: end;
+}
+
+.my-info {
+    display: grid;
+    grid-template-rows: 20px 20px;
+    align-content: stretch;
+}
+
+.info {
+    color: #D4D4D2;
+    font-family: Helvetica;
+    text-align: center;
+    font-weight:500;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.linkedin {
+    height: 15px;
+    width: 15px;
+}
+
+.link {
+    text-decoration: none;
+}
